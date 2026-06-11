@@ -10,7 +10,7 @@ ${use_blob_url ? `<base href="${window.location.origin}"/>` : ''}
 ${third_party}
 <script src="${parent_jquery_url}"></script>
 <script src="${predefine_url}"></script>
-<script src="https://testingcf.jsdelivr.net/gh/N0VI028/JS-Slash-Runner/src/iframe/node_modules/log.js"></script>
+<script src="https://testingcf.jsdelivr.net/gh/amber121069-cpu/JS-Slash-Runner@6bc5b454a359f88764738b6d1be96ed87da4cbd1/src/iframe/node_modules/log.js"></script>
 </head>
 <body>
 <script type="module">

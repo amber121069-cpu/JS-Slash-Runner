@@ -92,7 +92,7 @@ html,body{margin:0!important;padding:0;overflow:hidden!important;max-width:100%!
 </style>
 ${third_party}
 <script src="${predefine_url}"></script>
-<script src="https://testingcf.jsdelivr.net/gh/N0VI028/JS-Slash-Runner/src/iframe/node_modules/log.js"></script>
+<script src="https://testingcf.jsdelivr.net/gh/amber121069-cpu/JS-Slash-Runner@6bc5b454a359f88764738b6d1be96ed87da4cbd1/src/iframe/node_modules/log.js"></script>
 <script src="${adjust_viewport_url}"></script>
 <script src="${adjust_iframe_height_url}"></script>
 </head>
