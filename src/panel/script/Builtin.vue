@@ -105,18 +105,6 @@ const categories: Category[] = [
     ],
   },
   {
-    key: 'character card',
-    label: t`角色卡`,
-    icon: 'fa-address-card',
-    scripts: [
-      {
-        name: t`删除角色卡时删除绑定的主要世界书`,
-        content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/删除角色卡时删除绑定的主要世界书/index.js',
-        info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/删除角色卡时删除绑定的主要世界书/README.md',
-      },
-    ],
-  },
-  {
     key: 'worldbook',
     label: t`世界书`,
     icon: 'fa-book',
@@ -129,10 +117,10 @@ const categories: Category[] = [
           'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/世界书强制自定义排序/README.md',
       },
       {
-        name: t`一键禁用条目递归`,
+        name: t`一键开关条目递归`,
         content_url:
-          'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/一键禁用条目递归/index.js',
-        info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/一键禁用条目递归/README.md',
+          'https://testingcf.jsdelivr.net/gh/amber121069-cpu/tavern_resource@8540ff9397a60942eeb6ad9e88dac0ce9480b36c/dist/酒馆助手/一键禁用条目递归/index.js',
+        info_url: 'https://testingcf.jsdelivr.net/gh/amber121069-cpu/tavern_resource@8540ff9397a60942eeb6ad9e88dac0ce9480b36c/src/酒馆助手/一键禁用条目递归/README.md',
       },
       {
         name: t`世界书繁简互换: 一键将繁体/简体世界书翻译成简体/繁体`,
@@ -156,11 +144,6 @@ const categories: Category[] = [
         content_url:
           'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/预设条目更多按钮/index.js',
         info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/预设条目更多按钮/README.md',
-      },
-      {
-        name: t`保存预设条目时直接保存预设`,
-        content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/保存提示词时保存预设/index.js',
-        info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/保存提示词时保存预设/README.md',
       },
       {
         name: t`切换预设时提醒还没有保存`,
@@ -191,11 +174,6 @@ const categories: Category[] = [
     label: t`模型上下文处理`,
     icon: 'fa-layer-group',
     scripts: [
-      {
-        name: t`深度条目排斥器: 让深度条目只能在 D0 或 D9999`,
-        content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/深度条目排斥器/index.js',
-        info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/深度条目排斥器/README.md',
-      },
       {
         name: t`压缩相邻消息: 让 AI 对内容理解更连贯`,
         content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/压缩相邻消息/index.js',

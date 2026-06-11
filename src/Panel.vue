@@ -108,7 +108,7 @@ import { ModalsContainer } from 'vue-final-modal';
 const current_version = getTavernHelperVersion();
 
 // 暴露 Vue 从而让 vue devtool 能正确识别
-useScriptTag('https://testingcf.jsdelivr.net/npm/vue/dist/vue.runtime.global.prod.min.js');
+useScriptTag('https://testingcf.jsdelivr.net/npm/vue@3.5.33/dist/vue.runtime.global.prod.min.js');
 
 const tabs = [
   { key: 'render', name: t`渲染`, icon: 'fa-solid fa-magic-wand-sparkles', component: Render },
